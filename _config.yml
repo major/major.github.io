@@ -1,1 +1,37 @@
 remote_theme: chesterhow/tale
+
+# Site settings
+title:          Major's Random Stuff
+description:    "Major's Random Stuff"
+baseurl:        "/"
+url:            "https://major.github.io"
+
+# Author
+author:
+  name:         Major Hayden
+  url:          https://major.io
+  email:        major@mhtx.net
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jemoji
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
+
+# Excludes
+exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
