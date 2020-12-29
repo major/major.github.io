@@ -1,5 +1,5 @@
-# major.github.io
-Stuff
+# Major's Links
 
+## Investing
 
-test
+* [Finviz](https://finviz.com/)
